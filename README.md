@@ -1,6 +1,8 @@
 # AuthenticationAPI-using-Springboot
 The project is a token-based REST API authentication system developed using Spring Boot. It utilizes JSON Web Tokens (JWT) for secure authentication and MongoDB for storing user data. 
 
+Accepts JSON content-type and not form-data. To switch to form-data uncomment the saveUser and loginUser in AuthenticationController
+
 Articles to refer:
 
 https://iamprafful.medium.com/spring-boot-rest-api-authentication-best-practices-using-jwt-2022-fd3d7ab61d3
